@@ -6,6 +6,9 @@ function SkillProgress() {
       <p>Completed Skills : 9</p>
       <p>Pending Skills : 3</p>
       <p>Progress : 75%</p>
+      <div className="progress">
+        <div className="progress-fill"></div>
+      </div>
     </section>
   );
 }
