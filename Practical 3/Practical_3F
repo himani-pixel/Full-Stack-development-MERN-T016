@@ -1,0 +1,18 @@
+function App()
+{
+  const CurrentDate = new Date();
+
+
+  return(
+    <div>
+      <h1>Current Date and Time</h1>
+      <hr />
+      <p>Date: {CurrentDate.toLocaleDateString()}</p>
+      <p>Time: {CurrentDate.toLocaleTimeString()}</p>
+      <p>Himani T016</p>
+    </div>
+  );
+}
+
+
+export default App;
