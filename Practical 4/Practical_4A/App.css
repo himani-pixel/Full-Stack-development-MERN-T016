@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #eef3ff;
+  color: #4d5368;
+}
+
+.dashboard {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 22px;
+  background-color: #ffffff;
+  border: 1px solid #d9deea;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(25, 45, 90, 0.12);
+  text-align: center;
+}
+
+.header {
+  background-color: #f7f9ff;
+  border-bottom: 2px solid #c9d4ee;
+  border-radius: 8px 8px 0 0;
+  padding: 18px 12px;
+}
+
+.header h1 {
+  margin: 0;
+  color: #081f7a;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.section {
+  padding: 18px 0;
+  border-bottom: 1px solid #c9d4ee;
+}
+
+.section h2 {
+  margin: 0 0 10px;
+  color: #168000;
+  font-size: 20px;
+}
+
+.section p {
+  margin: 5px 0;
+  font-size: 14px;
+}
+
+.badge {
+  display: inline-block;
+  padding: 4px 10px;
+  background-color: #e6f7e6;
+  color: #168000;
+  border: 1px solid #9fd49f;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.progress {
+  width: 220px;
+  height: 10px;
+  margin: 12px auto 0;
+  background-color: #dfe5f2;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  width: 75%;
+  height: 100%;
+  background-color: #168000;
+}
+
+.footer {
+  padding-top: 18px;
+  font-weight: bold;
+  color: #081f7a;
+}
+
+.footer p {
+  margin: 0;
+}
