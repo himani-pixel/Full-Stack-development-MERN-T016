@@ -4,7 +4,7 @@ function App(){
   const [count , setCount] = useState(0);
   return(
     <div>
-      <h1>Button Click Couter</h1>
+      <h1>Button Click Counter</h1>
       <hr />
       <h2>Himani Clicks: {count} Times</h2>
       <button onClick = {() => setCount(count + 1)} > Click Me</button>
